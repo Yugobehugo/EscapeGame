@@ -1,5 +1,5 @@
 body {
-    background: red;
+    background-image: url("img/Énigme\ 2\ -\ Journal.png");
     margin: 0;
 }
 
@@ -11,5 +11,32 @@ footer {
 }
 
 main {
-    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enigme4 img {
+    margin-top: 80px;
+}
+
+.dialogue {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.enigme1 img {
+    margin-top: 60px;
+    width: 100vw;
+}
+
+.enigme1 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
