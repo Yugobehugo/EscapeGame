@@ -19,6 +19,7 @@
 
 body {
     background-image: url("img/wood-texture.png");
+    font-family: 'JMH-Typewriter';
     margin: 0;
 }
 
@@ -44,8 +45,8 @@ Enigme 1*/
     width: 100vw;
 }
 
-.enigme1 a {
-    color: white;
+.enigme1 a, .enigme1 button {
+    color: #fefefe;
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -53,6 +54,23 @@ Enigme 1*/
     margin-right: auto;
     margin-top: 20px;
 }
+
+button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    background: none;
+    font-family: 'JMH-Typewriter';
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
 
 
 /* 
@@ -89,11 +107,6 @@ Enigme 4*/
 .enigme4 img {
     margin-top: 80px;
 }
-
-#dialogue4-2 {
-    display: none;
-}
-
 .dialogue {
     width: 90%;
     height: auto;
@@ -108,17 +121,29 @@ Enigme 5*/
     width: 100%;
 }
 
-#herbier2 {
-    display: none;
+#button-container {
+    display: flex;
+    flex-direction: row;
 }
 
-#herbier3 {
-    display: none;
+#button-container button {
+    color: #fefefe;
+    margin-top: 0;
+}
+
+#reveal {
+    color: #fefefe;
+    text-align: center;
 }
 
 #dialogue5 {
-    margin-top: 50px;
+    margin-top: 100px;
 }
+
+.mySlides {
+    display: none;
+  }
+
 
 
 /* 
@@ -128,8 +153,4 @@ Enigme 5*/
     width: 90%;
     margin-bottom: 100px;
     margin-top: 50px;
-}
-
-#dialogueFenetre-2 {
-    display: none;
 }

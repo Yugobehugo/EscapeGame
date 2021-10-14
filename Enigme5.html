@@ -4,17 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escape game</title>
+    <title>A Spooky Story</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <img id="herbier1" class="herbier" src=" img/assets-enigme/herbier-enigme5-p1.png " alt=" ">
-        <img id="herbier2" class="herbier" src="img/assets-enigme/herbier-enigme5-p2.png " alt=" ">
-        <img id="herbier3" class="herbier" src="img/assets-enigme/herbier-enigme5-p3.png " alt=" ">
-        <img id="dialogue5" class="dialogue " src="img/dialogues-maurice/enigme5/dialogue-maurice5.png " alt=" ">
+        <div id="herbier-container">
+            <div id="slider">
+                <div class="mySlides">
+                    <img class="herbier" src=" img/assets-enigme/herbier-enigme5-p1.png " alt=" ">
+                </div>
+                <div class="mySlides" id="herbier2">
+                      <img class="herbier" src=" img/assets-enigme/herbier-enigme5-p2.png " alt=" " onclick="appearText()">
+                </div>
+                <div class="mySlides">
+                    <img class="herbier" src="img/assets-enigme/herbier-enigme5-p3.png " alt=" ">
+                </div>
+            </div>
+        
+            <div id="button-container">
+                <button class="control_prev" onclick="plusSlides(1)">page précédente</button>
+                <button class="control_next"  onclick="plusSlides(-1)">page suivante</button>
+            </div>
+        </div>
+        <div id="dialogue-container">
+            <p id="reveal"></p>
+            <img id="dialogue5" class="dialogue " src="img/dialogues-maurice/enigme5/dialogue-maurice5.png " alt=" ">
+        </div>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
