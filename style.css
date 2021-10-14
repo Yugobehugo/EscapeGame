@@ -41,7 +41,7 @@ main {
 Enigme 1*/
 
 .enigme1 img {
-    margin-top: 60px;
+    margin-top: 30px;
     width: 100vw;
 }
 
@@ -70,7 +70,43 @@ button:hover {
     cursor: pointer;
 }
 
+#filter-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+
+#filter-container .filterer {
+    background-color: #fefefe;
+    border: 1px solid #151515;
+    border-radius: 25px;
+    color: #151515;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-family: "JMH-Beda";
+    font-size: 14px;
+}
+
+#blueFilter.active {
+    background-color: #171E60;
+    border: 1px solid #171E60;
+    color: #fefefe;
+}
+
+#redFilter.active {
+    background-color: #8F150E;
+    border: 1px solid #8F150E;
+    color: #fefefe;
+}
+
+#greenFilter.active {
+    background-color: #1D8C0E;
+    border: 1px solid #1D8C0E;
+    color: #fefefe;
+}
 
 
 /* 

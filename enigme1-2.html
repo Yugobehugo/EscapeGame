@@ -10,27 +10,17 @@
 
 <body>
     <main class="enigme1">
+        <div id="filter-container">
+            <button id="redFilter" class="filterer">rouge</button>
+            <button id="blueFilter" class="filterer active">bleu</button>
+            <button id="greenFilter"class="filterer">vert</button>
+        </div>
         <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrebleu.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrebleu+vert.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrerouge.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrerouge+bleu.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrerouge+vert.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrevert.png" alt="">
-        <img src="img/assets-enigme/photo-famille-variations/peinture_de_famille-filtrerouge+bleu+vert.png" alt="">
-        <button>Retourner la photo</button>
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-onclick-turnphoto.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-blue.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-blue+green.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-red.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-red+blue.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-red+green.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-green.png" alt="">
-        <img class="dialogue" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie-allfilters.png" alt="">
+        <button onclick="changeImageEnigma1();">Retourner la photo</button>
+        <img class="dialogue" id="dialogue1" src="img/dialogues-maurice/enigme1/dialogue-maurice1-dioptrie.png" alt="">
     </main>
 
-
+<script src="main.js"></script>
 </body>
 
 </html>
