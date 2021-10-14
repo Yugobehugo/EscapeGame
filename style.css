@@ -1,5 +1,24 @@
+@font-face {
+    font-family: 'OldLondon';
+    src: url('fonts/OldLondon.ttf') format('truetype');
+    src: url('fonts/OldLondonAlternate.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JMH-Beda';
+    src: url('fonts/JMH\ Beda.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JMH-Typewriter';
+    src: url('fonts/JMH\ Typewriter.ttf') format('truetype');
+    src: url('fonts/JMH\ Typewriter-Black.ttf') format('truetype');
+    src: url('fonts/JMH\ Typewriter-Bold.ttf') format('truetype');
+    src: url('fonts/JMH\ Typewriter-Thin.ttf') format('truetype');
+}
+
 body {
-    background-image: url("img/Énigme\ 2\ -\ Journal.png");
+    background-image: url("img/wood-texture.png");
     margin: 0;
 }
 
