@@ -35,16 +35,6 @@ main {
     justify-content: center;
 }
 
-.enigme4 img {
-    margin-top: 80px;
-}
-
-.dialogue {
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
-}
-
 .enigme1 img {
     margin-top: 60px;
     width: 100vw;
@@ -58,4 +48,64 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+.journal {
+    width: 100%;
+    margin-top: 40px;
+    z-index: -1;
+}
+
+#dialogue2 {
+    position: fixed;
+    top: 400px;
+    width: 90%;
+}
+
+.article {
+    width: 100%;
+}
+
+#enigme3 {
+    width: 90%;
+}
+
+.enigme4 img {
+    margin-top: 80px;
+}
+
+#dialogue4-2 {
+    display: none;
+}
+
+.dialogue {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.herbier {
+    width: 100%;
+}
+
+#herbier2 {
+    display: none;
+}
+
+#herbier3 {
+    display: none;
+}
+
+#dialogue5 {
+    margin-top: 50px;
+}
+
+.fenetre {
+    width: 90%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#dialogueFenetre-2 {
+    display: none;
 }
